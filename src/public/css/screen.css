@@ -30,7 +30,7 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
 }
 
 .lineup {
@@ -81,13 +81,11 @@ body {
     border-radius: 50%;
 }
 
-.players-section h2
-{
+.players-section h2 {
     padding-left: 0px;
 }
 
-.lineup-section h2
-{
+.lineup-section h2 {
     padding-left: 0px;
 }
 
@@ -101,7 +99,8 @@ body {
     justify-content: center;
     position: absolute;
     cursor: move;
-    transition: all 0.3s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+    transition: all 0.3s ease-in-out;
+    /* Thêm hiệu ứng chuyển đổi */
     border-radius: 50%;
 }
 
@@ -170,7 +169,7 @@ body {
 }
 
 .position:nth-child(1) .player-info,
-.position:nth-child(2) .player-info, 
+.position:nth-child(2) .player-info,
 .position:nth-child(3) .player-info {
     position: absolute;
     left: -1px;
@@ -180,9 +179,10 @@ body {
     font-size: 12px;
     border-radius: 7px;
 }
+
 .position:nth-child(4) .player-info,
 .position:nth-child(5) .player-info,
-.position:nth-child(6) .player-info, 
+.position:nth-child(6) .player-info,
 .position:nth-child(7) .player-info {
     position: absolute;
     left: -1px;
@@ -194,7 +194,7 @@ body {
 }
 
 .position:nth-child(8) .player-info,
-.position:nth-child(9) .player-info, 
+.position:nth-child(9) .player-info,
 .position:nth-child(10) .player-info {
     position: absolute;
     left: -1px;
@@ -214,13 +214,14 @@ body {
     font-size: 12px;
 }
 
-.position:hover
-{ /* Thêm hiệu ứng khi hover hoặc đã được chọn */
+.position:hover {
+    /* Thêm hiệu ứng khi hover hoặc đã được chọn */
     border-color: #999;
     transform: scale(1.1);
 }
 
-.position.selected { /* Thêm hiệu ứng khi hover hoặc đã được chọn */
+.position.selected {
+    /* Thêm hiệu ứng khi hover hoặc đã được chọn */
     border-color: #999;
     transform: scale(1.5);
 }
@@ -349,7 +350,8 @@ textarea {
     font: inherit;
     margin: 0
 }
-.hot-display-license-info{
+
+.hot-display-license-info {
     display: none;
 }
 
@@ -22168,8 +22170,7 @@ th {
     }
 }
 
-.flag.VN
-{
+.flag.VN {
     background-position: -210px -240px;
 }
 
@@ -35784,8 +35785,8 @@ img {
     font-weight: 400;
     font-size: 1.3rem
 }
-ds
-.masthead .dropdown a:focus,
+
+ds .masthead .dropdown a:focus,
 .masthead .dropdown a:hover {
     color: #000;
 }
@@ -35947,8 +35948,7 @@ ds
 }
 
 #team1,
-#team2
-{
+#team2 {
     min-width: 50rem;
     color: #000000;
     border-radius: 0.5rem;
@@ -36740,36 +36740,31 @@ body.webViewBody {
         padding-top: 6rem
     }
 }
-.ism header
-{
+
+.ism header {
     padding: -50px;
 }
 
-.ism-form---group
-{
+.ism-form---group {
     display: flex;
 }
 
-.ism-PassList
-{
+.ism-PassList {
     width: 50%;
     height: 100px;
 }
 
-.ism-form__group .PassList__StyledPassItem
-{
+.ism-form__group .PassList__StyledPassItem {
     display: flex;
     justify-content: space-around;
 }
 
-.ism-form__group .PassList__StyledPassItem .PassList__Lable
-{
+.ism-form__group .PassList__StyledPassItem .PassList__Lable {
     flex-grow: 1;
     align-self: flex-start;
 }
 
-.ism-form__group .PassList__StyledPassItem .PassList__box
-{
+.ism-form__group .PassList__StyledPassItem .PassList__box {
     flex-shrink: 3;
     width: 15px;
     height: 15px;
@@ -36781,14 +36776,12 @@ body.webViewBody {
 }
 
 #ismr-content2 .ism-form__group:first-child,
-#ismr-content2 .ism-form__group:nth-child(2)
-{
+#ismr-content2 .ism-form__group:nth-child(2) {
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#ismr-content2 .ism-form__group:nth-child(5)
-{
+#ismr-content2 .ism-form__group:nth-child(5) {
     margin: -5px;
 }
 
@@ -38729,7 +38722,7 @@ button[class*=btn-]:focus:active {
     margin-bottom: .8rem;
     min-height: 1.3rem;
     color: #e90052;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.1rem
 }
@@ -41102,7 +41095,7 @@ table+.pointsDeductedContainer {
     transition: .2s;
     white-space: nowrap;
     border-radius: 4px 4px 0 0;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -41527,7 +41520,7 @@ table+.pointsDeductedContainer {
 }
 
 .socialShareVideo .socialShareText {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     margin-right: .8rem;
     font-size: 1.1rem
@@ -43052,7 +43045,7 @@ video span::cue {
     margin-bottom: .3rem;
     font-size: 1.1rem;
     color: #963cff;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     white-space: nowrap
 }
@@ -45933,7 +45926,7 @@ div.fixture.live:hover .arrow-right {
     margin-bottom: .5rem;
     font-size: 1.1rem;
     color: #e90052;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -46725,17 +46718,17 @@ div.fixture.live:hover .arrow-right {
 }
 
 .searchBar input[type=text]::-webkit-input-placeholder {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
 .searchBar input[type=text]::-moz-placeholder {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
 .searchBar input[type=text]:-ms-input-placeholder {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -47389,7 +47382,7 @@ div.fixture.live:hover .arrow-right {
     float: left;
     margin-left: 1rem;
     color: #fff;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -50060,7 +50053,7 @@ div.fixture.live:hover .arrow-right {
     white-space: nowrap;
     border-color: hsla(0, 0%, 94%, .5);
     border-radius: 4px 4px 0 0;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -51820,7 +51813,7 @@ div.fixture.live:hover .arrow-right {
 
 .statsCard .position {
     font-size: 1.1rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     margin-top: .5rem
 }
@@ -55889,12 +55882,12 @@ div.fixture.live:hover .arrow-right {
 }
 
 .getInTouchForm .textInput::-moz-placeholder {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
 .getInTouchForm .textInput::placeholder {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -55914,7 +55907,7 @@ div.fixture.live:hover .arrow-right {
 .getInTouchForm .maximumCharactersText {
     display: block;
     font-size: 1.4rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -61655,7 +61648,7 @@ div.matchHighlightsBanner .competition span {
 .articleHeader .newsTag {
     color: #ff2882;
     margin-bottom: .5rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.3rem
 }
@@ -66142,7 +66135,7 @@ div.matchHighlightsBanner .competition span {
     margin-bottom: .5rem;
     font-size: 1.1rem;
     color: #e90052;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -66756,7 +66749,7 @@ div.matchHighlightsBanner .competition span {
 
 .personalised-video__header-text {
     font-size: 1.1rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -71113,13 +71106,13 @@ div.matchHighlightsBanner .competition span {
 }
 
 .clubIndex .t1 .indexImg__img {
-    background-image: url(	https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t1.jpg)
+    background-image: url(https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t1.jpg)
 }
 
 @media (-moz-min-device-pixel-ratio:2),
 (-webkit-min-device-pixel-ratio:2) {
     .clubIndex .t1 .indexImg__img {
-        background-image: url(	https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t1@x2.jpg)
+        background-image: url(https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t1@x2.jpg)
     }
 }
 
@@ -71421,13 +71414,13 @@ div.matchHighlightsBanner .competition span {
 }
 
 .clubIndex .t2 .indexImg__img {
-    background-image: url(	https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t2.jpg)
+    background-image: url(https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t2.jpg)
 }
 
 @media (-moz-min-device-pixel-ratio:2),
 (-webkit-min-device-pixel-ratio:2) {
     .clubIndex .t2 .indexImg__img {
-        background-image: url(	https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t2@x2.jpg)
+        background-image: url(https://www.premierleague.com/resources/prod/v6.122.4-6039/i/stadiums/club-index/t2@x2.jpg)
     }
 }
 
@@ -80165,7 +80158,7 @@ div.matchHighlightsBanner .competition span {
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     .t6 .icn.facebook-like-w {
-        
+
         background-image: url(../photos/i/sprites/social-sprite@x2.png);
         background-size: 130px 118px
     }
@@ -80198,11 +80191,12 @@ div.matchHighlightsBanner .competition span {
 .t6 .socialSection .socialCard .actions a.time {
     color: #000
 }
-time 
-{
+
+time {
     border: 1px solid #ccc5 !important;
 }
-.wtSpreader{
+
+.wtSpreader {
     background-color: #fff !important;
     z-index: 100 !important;
 }
@@ -96417,7 +96411,7 @@ time
     padding: 1.4rem 0;
     display: inline-block;
     transform: none;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -96923,7 +96917,7 @@ time
 }
 
 .kotm-results__fixture-player h4 {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     margin-top: 1.2rem
 }
@@ -100426,7 +100420,7 @@ time
 .awards-hero-category__nominee-name .heavy {
     font-size: 2.24rem;
     display: block;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -100458,7 +100452,7 @@ time
 }
 
 .awards-hero-category__stat-value {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2.24rem
 }
@@ -101134,7 +101128,7 @@ time
     font-size: 4.8rem;
     line-height: .8;
     text-transform: uppercase;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     color: transparent;
     -webkit-text-stroke: .2rem #fff;
@@ -107989,7 +107983,7 @@ time
 }
 
 .hero-slider__author .heavy {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -110640,7 +110634,7 @@ time
 }
 
 .section-hero__author span {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -110970,12 +110964,12 @@ time
     margin-top: 2.5rem;
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
 .block-quote__author-extra {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -116020,12 +116014,12 @@ time
     margin-bottom: 2rem;
     color: #fff;
     font-size: 1.2rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
 .full-width-quote-promo__author span {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -122282,7 +122276,7 @@ body {
     color: #fff;
     font-style: italic;
     font-size: 1.4rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     margin-bottom: 1.2rem
 }
@@ -122360,7 +122354,7 @@ body {
 
 .basic-campaign-header.theme--epl .basic-campaign-header__campaign-text {
     color: #37003c;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -125289,7 +125283,7 @@ body {
     display: none;
     left: 50%;
     font-size: 1rem;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1rem;
     white-space: nowrap;
@@ -125649,7 +125643,7 @@ body {
     padding: .1rem .85rem 0 .95rem;
     margin-right: 1.1rem;
     text-transform: uppercase;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -126301,7 +126295,7 @@ body {
     position: relative;
     top: -1rem;
     text-transform: uppercase;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400
 }
 
@@ -127260,7 +127254,7 @@ body {
 }
 
 .quiz__results-score {
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     color: #ebff00;
     font-size: 8.4rem;
@@ -127273,7 +127267,7 @@ body {
 
 .quiz__results-title {
     -webkit-text-stroke: 2px #fff;
-    font-family: 'Open Sans' -Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans'-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 3.8rem;
     text-transform: uppercase
@@ -129998,8 +129992,7 @@ section.tab-content {
     content: "Warning: It looks like you are styling an element to be disabled here. Make sure it is disabled properly.";
 }
 
-#dangky h1
-{
+#dangky h1 {
     margin: 0 -58rem 2.5rem -3rem;
 }
 
@@ -130750,8 +130743,7 @@ section.tab-content {
     width: 70%;
 }
 
-.ism form .ism-input-holder input:focus 
-{
+.ism form .ism-input-holder input:focus {
     outline: none;
 }
 
@@ -132039,14 +132031,13 @@ dialog {
     width: 50%;
 }
 
-#userNameInfo
-{
+#userNameInfo {
     color: #e53535;
 }
 
 .error-border {
     border: 2px solid red !important;
-  }
+}
 
 .ism .ism-form__policy {
     padding-top: 2em;
@@ -132242,6 +132233,7 @@ dialog {
 .ism .user-admin .email-logs .email-log-table td.event-timestamp {
     white-space: nowrap;
 }
+
 #playerTable {
     z-index: 0;
 }
