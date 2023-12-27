@@ -37159,7 +37159,7 @@ body.webViewBody {
     padding: 0
 }
 
-.mainFooter .footerCorporate .official {
+/* .mainFooter .footerCorporate .official {
     float: right
 }
 
@@ -37169,7 +37169,7 @@ body.webViewBody {
 
 .mainFooter .footerCorporate .official a:focus {
     transform: scale(.9)
-}
+} */
 
 .mainFooter .footerCorporate .icn {
     display: inline-block;
@@ -37247,10 +37247,10 @@ body.webViewBody {
         margin-right: 0
     }
 
-    .mainFooter .footerCorporate .official {
+    /* .mainFooter .footerCorporate .official {
         float: none;
         text-align: center
-    }
+    } */
 }
 
 @media (max-width:63.9375em) {
