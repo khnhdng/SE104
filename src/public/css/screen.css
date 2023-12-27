@@ -35216,6 +35216,9 @@ img {
     }
 }
 
+.today {
+    color:red
+}
 .fixed-two-col {
     background: #37003c;
     display: flex;
@@ -36959,12 +36962,13 @@ body.webViewBody {
 
 .subNav a {
     display: block;
-    color: #76766f;
+    color: #1c003b;
     text-decoration: none;
     padding: .4rem 2rem;
     font-size: 1.3rem;
     position: relative;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    font-weight: 600
 }
 
 .subNav a:before {
@@ -36975,7 +36979,7 @@ body.webViewBody {
     left: 0;
     right: 0;
     height: 0;
-    background: linear-gradient(90deg, #963cff, #a64dae);
+    background: linear-gradient(90deg, #ff2ad9, #9723a1);
     transition: .2s;
     z-index: -1
 }
@@ -36992,11 +36996,11 @@ body.webViewBody {
 
 .subNav a.active:before {
     height: 4px;
-    background: linear-gradient(90deg, #963cff, #a64dae)
+    background: linear-gradient(90deg, #ff2ad9, #9723a1)
 }
 
 .subNav a.active:focus:before {
-    background: #b60040
+    background: #ca3cba
 }
 
 @media (max-width:56.25em) {
@@ -37035,8 +37039,8 @@ body.webViewBody {
 }
 
 .mainFooter .footerContent {
-    padding: 10rem 4rem;
-    background: #aa083a;
+    padding: 8rem 4rem;
+    background: #470e44;
     background-position: bottom;
     background-size: 100% auto
 }
@@ -37209,10 +37213,6 @@ body.webViewBody {
     }
 
     .mainFooter .footerContent {
-        background-image: url(../photos/i/bg-elements/pl-footer-m-top.svg), url(../photos/i/bg-elements/pl-footer-m-bottom.svg);
-        background-color: #37003c;
-        background-position: 0 0, 0 100%;
-        background-repeat: no-repeat, no-repeat;
         padding: 3rem 1rem
     }
 
@@ -39507,7 +39507,9 @@ button[class*=btn-]:focus:active {
 
 .fixedSidebar .tablist li.active {
     background: #fff;
-    color: #242424
+    color: #242424;
+    font-size: 1.3rem;
+    font-weight: 500
 }
 
 .fixedSidebar .embeddable-poll,
@@ -51401,17 +51403,17 @@ div.fixture.live:hover .arrow-right {
 .fixturesAbridgedHeader {
     position: relative;
     padding: 2.3rem 1rem 2rem;
-    background: #fff;
+    background: #ffebed;
     text-align: center;
     border-radius: 3px 3px 0 0;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15)
 }
 
 .fixturesAbridgedHeader .week {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: .8rem;
     font-family: 'Open Sans', Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: #ff2882
 }
