@@ -54,7 +54,26 @@
                     </h4>
                 </div>
                 <ul class="clubList" role="menu">
-
+                    <% for (let i=0;i< dataDoiBong.length;i++) { %>
+                        <li>
+                            <a target="_blank"
+                                href="        https://www.afcb.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link"
+                                role="menuitem">
+                                <div class="badge badge--small badge-image-container">
+                                    <img class="badge-image badge-image--25 js-badge-image"
+                                        src="./photos/badges/25/t<%=anh[i]%>.png"
+                                        srcset="./photos/badges/25/t91@x2.png 2x" />
+                                </div>
+                                <div class="badge badge--large badge-image-container" data-size="50">
+                                    <img class="badge-image badge-image--50 js-badge-image"
+                                        src="./photos/badges/50/t<%=anh[i]%>.png"
+                                        srcset="./photos/badges/50/t91@x2.png 2x" />
+                                    <span class="visuallyHidden">AFC Bournemouth</span>
+                                </div>
+                                <span class="name">AFC Bournemouth</span>
+                            </a>
+                        </li>
+                        <% } %>
                 </ul>
             </nav>
             <!--Phần navbar-->
@@ -613,7 +632,6 @@
                                 </div>
                             </div>
                         </section>
-
                         <section class="mainWidget latestFeatures ">
                             <!-- TO-TRANSLATE -->
                             <header>

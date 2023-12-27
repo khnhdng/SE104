@@ -34536,13 +34536,13 @@ img {
     padding: 1.5rem 2rem
 }
 
-.competitionImage1 {
+/* .competitionImage1 {
     content: "";
-    background: url(../photos/i/sprites/global-sprite.png) -282px -573px no-repeat;
+    background: url(../photos/i/sprites/global-sprite.png) -282px -523px no-repeat;
     width: 170px;
     height: 28px;
     display: block
-}
+} */
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
