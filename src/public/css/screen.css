@@ -35217,8 +35217,9 @@ img {
 }
 
 .today {
-    color:red
+    color: red
 }
+
 .fixed-two-col {
     background: #37003c;
     display: flex;
