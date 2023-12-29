@@ -37832,7 +37832,7 @@ body.webViewBody {
 .btn:hover,
 [class*=btn-]:focus,
 [class*=btn-]:hover {
-    background-image: linear-gradient(270deg, #ff2882, #963cff)
+    background-image: linear-gradient(270deg, #f659b4, #c300ff)
 }
 
 .article-promo--history .active.article-promo__btn,
@@ -38433,8 +38433,8 @@ button[class*=btn-]:focus:active {
 
 .widget-button:focus,
 .widget-button:hover {
-    color: #ff2882;
-    color: #ff2882;
+    color: #e0156a;
+    color: #11060a;
     box-shadow: none
 }
 
