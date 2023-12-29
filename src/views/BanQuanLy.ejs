@@ -1593,7 +1593,7 @@
                                                         <span>
                                                             <%= dataLichThiDau[i].ngay%>
                                                         </span>
-                                                        <button type"submit" class="icn arrow-right"
+                                                        <button type="submit" class="icn arrow-right"
                                                             style="position: absolute; border: none; width:50px; height:20px; background-size: 169px !important; background: url(../photos/i/sprites/arrows-sprite.png) -137px -44px no-repeat;"></button>
                                                     </span>
                                         </form>
@@ -1828,10 +1828,11 @@
                                         thủ</button>
                                 </div>
                                 <button type="submit" class="btn btn-primary"
-                                    style="margin-top: 10px; margin-left:900px;">Gửi</button </div>
+                                    style="margin-top: 10px; margin-left:900px;">Gửi</button>
+                            </div>
 
-                                <!-- Các hidden input để lưu trữ dữ liệu từ bảng HandsonTable -->
-                                <input type="hidden" name="playerData" id="playerData" value="">
+                            <!-- Các hidden input để lưu trữ dữ liệu từ bảng HandsonTable -->
+                            <input type="hidden" name="playerData" id="playerData" value="">
                         </form>
                     </div>
                 </div>
@@ -1870,7 +1871,7 @@
                     }
                 }
                 console.log(SoCTToiDa);
-                //import Handsontable from 'handsontable';
+                //import table from 'handsontable';
                 let hot;
 
                 function initializeTable() {
@@ -1975,41 +1976,15 @@
                         }
                     });
                 }
-
+                // Thêm hàng
                 function addPlayerRow() {
-                    hot.alter('insert_row', hot.countRows());
+                    hot.alter('insert_row_below', hot.countRows());
                 }
-
+                // Xóa hàng
                 function removePlayerRow() {
-                    hot.alter('remove_row', hot.countRows());
+                    var currentRowCount = hot.countRows();
+                    hot.alter('remove_row', currentRowCount - 1);
                 }
-                // function getSelected() { // https://github.com/handsontable/handsontable/issues/44  //cjl
-                //     if (selection.isSelected()) {
-                //         return arrayMap(selection.getSelectedRange(), ({ from, to }) => [from.row, from.col, to.row, to.col]);
-                //     }
-                // };
-
-                // function removePlayerRow() {
-                //     const selectedRows = hot.getSelected(); // Lấy các hàng đã chọn
-                //     console.log(selectedRows);
-                //     var selectedRowIndexes = [];/* = selectedRows.map(function (range){
-                //         return range[0];
-                //     }); */// Chỉ lấy chỉ số hàng
-                //     for (let i = 0; i < selectedRows.length; i++) {
-                //         const temp = selectedRows[i];
-                //         selectedRowIndexes[i] = temp.rowIndex;
-                //     }
-                //     console.log(selectedRowIndexes);
-
-                //     // Xóa các hàng đã chọn từ cuối cùng đến đầu để tránh lỗi chỉ số hàng thay đổi
-                //     selectedRowIndexes.sort(function (a, b) {
-                //         return b - a;
-                //     });
-
-                //     selectedRowIndexes.forEach(function (rowIndex) {
-                //         hot.alter('remove_row', rowIndex); // Xóa hàng
-                //     });
-                // }
 
                 initializeTable();
 
