@@ -9,7 +9,7 @@
 
 
 
-// Hướng dẫn chạy
+// Hướng dẫn chạy \
 npm init
 
 npm -v
