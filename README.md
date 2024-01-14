@@ -1,6 +1,6 @@
 //Project: [SE104] – SE104 Board:https://trello.com/b/hhUd6Nn4/%C4%91%E1%BB%93-%C3%A1n \
 
-Member:
+Member: \
 // 21521975 - Lê Bá Khánh Dũng (NT)\
 // 21522698 - Phan Huỳnh Thiên Trang\
 // 21520602 - Đỗ Gia Bảo\
